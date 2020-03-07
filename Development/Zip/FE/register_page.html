@@ -1,0 +1,51 @@
+<html>
+        <title>Fly 490 Register</title>
+        <head>
+                <link rel="stylesheet" type="text/css" href="style/style.css">
+        </head>
+<body>
+
+<img src="images/Scanner.png" alt="AirPlane">
+<h1> FLY 490 Registration</h1>
+
+        <div class="form_background">
+        <form  action="RegisterReq.php" method="POST" class="form">
+                <div class="form-group row">
+                <label for="username" class="col-md-4 col-form-label text-md-right">Username</label>
+                        <div class="col-md-6">
+                                <input type="text" id="username" class="form-control" name="username" required autofocus>
+                        </div>
+                </div>
+		<div class="form-group row">
+                <label for="email" class="col-md-4 col-form-label text-md-right">Email</label>
+                        <div class="col-md-6">
+                                <input type="text" id="email" class="form-control" name="email" required>
+                        </div>
+                </div>
+
+                <div class="form-group row">
+                        <label for="password" class="col-md-4 col-form-label text-md-right">Password</label>
+                        <div class="col-md-6">
+                                <input type="password" id="password" class="form-control" name="password" required>
+                        </div>
+                </div>
+		<div class="form-group row">
+                        <label for="password1" class="col-md-4 col-form-label text-md-right">Confirm Password</label>
+                        <div class="col-md-6">
+                                <input type="password" id="password1" class="form-control" name="password1" required>
+                        </div>
+                </div>
+
+                <div class="col-md-6 offset-md-4">
+                        <input type="submit" name ="submit" class="btn btn-primary" value ="Register">
+                </div>
+
+                <div class="register_link">
+                        <a href="index.html">Login</a>
+                </div>
+        </form>
+        </div>
+</body>
+
+</html>
+
